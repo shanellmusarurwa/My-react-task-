@@ -48,3 +48,43 @@ p {
   padding-right: 5px;
   line-height: 1.5;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .profile-card {
+    padding: 20px;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .contact-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-card {
+    padding: 15px;
+  }
+
+  .profile-img {
+    width: 90px;
+    height: 90px;
+  }
+
+  p {
+    font-size: 12px;
+    max-height: 180px;
+  }
+}
